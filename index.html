@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, 
+    initial-scale=1.0">
+    <meta name="description" content="Build your first html palge and embade video in it">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>How to build HTML page </title>
+</head>
+
+<style>
+    body {
+        font-size: 20px;
+    }
+
+    div.a {
+        text-align: center;
+        font-style: oblique;
+        font-size: larger;
+    }
+
+    div.b {
+        text-align: right;
+    }
+</style>
+
+<body>
+    <ul>
+        <li>home</li>
+        <li>about</li>
+    </ul>
+
+    <ol type="I">
+        <li>contact me</li>
+        <li>login</li>
+    </ol>
+    <header></header>
+    <main>
+        <nav></nav>
+        <section>
+            <div>
+                <table>
+                    <caption>student list</caption>
+                    <thead>
+                        <tr>
+                            <th>Sl. NO </th>
+                            <th>Name </th>
+                            <!-- <th colspan="2"></th> sapns the column -->
+                            <th>Roll number </th>
+                            <th>branch</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1.</td>
+                            <td>Abinas Sonowal</td>
+                            <td>210101004</td>
+                            <td>CSE</td>
+                        </tr>
+                        <tr>
+                            <td>2.</td>
+                            <td>Ravi Lahare</td>
+                            <td>210101086</td>
+                            <td>CSE</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <div>
+                <h1>create a new account</h1>
+                <form action="Form.php">
+                    <input type="text" placeholder="Enter your name"><br><br>
+                    Choose your section <br>
+                    <label for="sectionida">
+                        <input type="radio" value="section a" name="Section" id="sectionida">Section A
+                    </label>
+                    <label for="sectionidb">
+                        <input type="radio" value="section b" name="Section" id="sectionidb">Section B
+                    </label>
+                    <label for="sectionidc">
+                        <input type="radio" value="section c" name="Section" id="sectionidc">Section C
+                    </label>
+                    <br><br>
+                    <label for="mesh card"> want mesh card or not
+                        <input type="checkbox" name="mesh" id="mesh card" class="red">
+                    </label><br><br>
+                    <label for="date_of_birth">Enter tour date of birth
+                        <input type="date" name="DOB" id="date_of_birth">
+                    </label><br><br>
+                    <select name="hostel" id="hostel">
+                        <option value="no_hostel">Select your hostel</option>
+                        <option value="Lohit B">Lohit B</option>
+                        <option value="Umium">Umium</option>
+                    </select><br><br>
+                    <iframe src="https://www.bing.com" frameborder="0" width="1080px">Bing</iframe><br><br>
+                    <div>
+                        <iframe width="480" height="360" autoplay loop muted
+                            src="https://www.youtube.com/embed/6UPT8WesC9s" title="An evening glimpse of IITG"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>>
+                    </div><br><br>
+                    <!-- <video src="/video/localtrain.mp4" controls height="360" autoplay loop muted></video><br><br> -->
+                    <textarea cols="50" rows="10" placeholder="Tell me about your experince on this page"
+                        name="feedback" id="feedback"></textarea>
+
+                </form>
+            </div>
+        </section>
+        <article></article>
+        <aside></aside>
+    </main>
+    <footer></footer>
+</body>
+
+
+</html>
